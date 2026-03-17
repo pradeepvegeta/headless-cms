@@ -13,6 +13,7 @@ export const eventType = defineType({
         defineField({
             name: 'slug',
             type: 'slug',
+            options: {source: 'name'}
         }),
         defineField({
             name: 'eventType',
